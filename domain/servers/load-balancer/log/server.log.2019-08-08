@@ -1,0 +1,208 @@
+2019-08-08 20:15:55,227 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.0.Final
+2019-08-08 20:15:55,837 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2019-08-08 20:15:55,858 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2019-08-08 20:15:56,220 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 6.0.1 (WildFly Core 8.0.0.Final) starting
+2019-08-08 20:15:56,221 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Server:load-balancer] = 
+	[pcid:1427970035] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/ubuntu/projects/keycloak/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_222-8u222-b10-1ubuntu1~18.04.1-b10
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Private Build
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_222
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Private Build
+	java.vm.version = 25.222-b10
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.domain.base.dir = /home/ubuntu/projects/keycloak/domain
+	jboss.domain.config.dir = /home/ubuntu/projects/keycloak/domain/configuration
+	jboss.home.dir = /home/ubuntu/projects/keycloak
+	jboss.host.name = ip-172-31-46-178
+	jboss.modules.dir = /home/ubuntu/projects/keycloak/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = master:load-balancer
+	jboss.qualified.host.name = ip-172-31-46-178.us-east-2.compute.internal
+	jboss.server.base.dir = /home/ubuntu/projects/keycloak/domain/servers/load-balancer
+	jboss.server.config.dir = /home/ubuntu/projects/keycloak/domain/servers/load-balancer/configuration
+	jboss.server.data.dir = /home/ubuntu/projects/keycloak/domain/servers/load-balancer/data
+	jboss.server.deploy.dir = /home/ubuntu/projects/keycloak/domain/servers/load-balancer/data/content
+	jboss.server.log.dir = /home/ubuntu/projects/keycloak/domain/servers/load-balancer/log
+	jboss.server.name = load-balancer
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/ubuntu/projects/keycloak/domain/servers/load-balancer/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/ubuntu/projects/keycloak/domain/configuration/default-server-logging.properties
+	module.path = /home/ubuntu/projects/keycloak/modules
+	org.jboss.boot.log.file = /home/ubuntu/projects/keycloak/domain/servers/load-balancer/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.15.0-1044-aws
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/ubuntu/projects/keycloak/jboss-modules.jar -mp /home/ubuntu/projects/keycloak/modules org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.dir = /home/ubuntu/projects/keycloak
+	user.home = /home/ubuntu
+	user.language = en
+	user.name = ubuntu
+	user.timezone = Etc/UTC
+2019-08-08 20:15:56,222 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Server:load-balancer] -D[pcid:1427970035] -Xms64m -Xmx512m -XX:MetaspaceSize=96m -XX:MaxMetaspaceSize=256m -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Djboss.home.dir=/home/ubuntu/projects/keycloak -Djboss.modules.system.pkgs=org.jboss.byteman -Djboss.server.log.dir=/home/ubuntu/projects/keycloak/domain/servers/load-balancer/log -Djboss.server.temp.dir=/home/ubuntu/projects/keycloak/domain/servers/load-balancer/tmp -Djboss.server.data.dir=/home/ubuntu/projects/keycloak/domain/servers/load-balancer/data -Dorg.jboss.boot.log.file=/home/ubuntu/projects/keycloak/domain/servers/load-balancer/log/server.log -Dlogging.configuration=file:/home/ubuntu/projects/keycloak/domain/configuration/default-server-logging.properties 
+2019-08-08 20:15:56,400 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final
+2019-08-08 20:15:56,413 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final
+2019-08-08 20:15:56,483 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.8.Final
+2019-08-08 20:15:57,129 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.8.0.Final
+2019-08-08 20:16:01,515 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 5) WFLYIO001: Worker 'default' has auto-configured to 2 core threads with 16 task threads based on your 1 available processors
+2019-08-08 20:16:01,547 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.0.19.Final starting
+2019-08-08 20:16:01,780 INFO  [io.undertow] (MSC service thread 1-2) UT005039: Undertow starts mod_cluster proxy advertisements on /224.0.1.105:23364 with frequency 10000 ms
+2019-08-08 20:16:01,906 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2019-08-08 20:16:01,912 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2019-08-08 20:16:02,051 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener management listening on 127.0.0.1:8090
+2019-08-08 20:16:02,057 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2019-08-08 20:16:02,160 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2019-08-08 20:16:02,240 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /home/ubuntu/projects/keycloak/domain/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2019-08-08 20:16:02,443 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2019-08-08 20:16:02,457 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 6.0.1 (WildFly Core 8.0.0.Final) started in 8229ms - Started 73 of 88 services (39 services are lazy, passive or on-demand)
+2019-08-08 20:16:20,159 INFO  [io.undertow] (default task-2) UT005053: Registering node master:server-one, connection: ajp://127.0.0.1:8159/?#
+2019-08-08 20:16:20,165 INFO  [io.undertow] (default task-1) UT005045: Registering context /, for node master:server-one
+2019-08-08 20:16:20,171 INFO  [io.undertow] (default task-3) UT005045: Registering context /wildfly-services, for node master:server-one
+2019-08-08 20:19:19,560 INFO  [io.undertow] (default task-2) UT005044: Removing node master:server-one
+2019-08-08 20:19:20,044 INFO  [io.undertow] (default task-2) UT005047: Unregistering context /, from node master:server-one
+2019-08-08 20:19:30,353 INFO  [io.undertow] (default task-2) UT005047: Unregistering context /wildfly-services, from node master:server-one
+2019-08-08 20:21:37,758 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0272: Suspending server
+2019-08-08 20:21:43,161 ERROR [io.undertow] (default task-2) UT005043: Error in processing MCMP commands: Type:MEM, Mess: MEM: Can't read node
+2019-08-08 20:23:51,421 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2019-08-08 20:23:51,427 INFO  [io.undertow] (default task-2) UT005053: Registering node master:server-one, connection: ajp://127.0.0.1:8159/?#
+2019-08-08 20:38:26,643 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.0.Final
+2019-08-08 20:38:27,250 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2019-08-08 20:38:27,271 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2019-08-08 20:38:27,644 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 6.0.1 (WildFly Core 8.0.0.Final) starting
+2019-08-08 20:38:27,646 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Server:load-balancer] = 
+	[pcid:954556939] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/ubuntu/projects/keycloak/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_222-8u222-b10-1ubuntu1~18.04.1-b10
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Private Build
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_222
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Private Build
+	java.vm.version = 25.222-b10
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.domain.base.dir = /home/ubuntu/projects/keycloak/domain
+	jboss.domain.config.dir = /home/ubuntu/projects/keycloak/domain/configuration
+	jboss.home.dir = /home/ubuntu/projects/keycloak
+	jboss.host.name = ip-172-31-46-178
+	jboss.modules.dir = /home/ubuntu/projects/keycloak/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = master:load-balancer
+	jboss.qualified.host.name = ip-172-31-46-178.us-east-2.compute.internal
+	jboss.server.base.dir = /home/ubuntu/projects/keycloak/domain/servers/load-balancer
+	jboss.server.config.dir = /home/ubuntu/projects/keycloak/domain/servers/load-balancer/configuration
+	jboss.server.data.dir = /home/ubuntu/projects/keycloak/domain/servers/load-balancer/data
+	jboss.server.deploy.dir = /home/ubuntu/projects/keycloak/domain/servers/load-balancer/data/content
+	jboss.server.log.dir = /home/ubuntu/projects/keycloak/domain/servers/load-balancer/log
+	jboss.server.name = load-balancer
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/ubuntu/projects/keycloak/domain/servers/load-balancer/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/ubuntu/projects/keycloak/domain/servers/load-balancer/data/logging.properties
+	module.path = /home/ubuntu/projects/keycloak/modules
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.15.0-1044-aws
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/ubuntu/projects/keycloak/jboss-modules.jar -mp /home/ubuntu/projects/keycloak/modules org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.dir = /home/ubuntu/projects/keycloak
+	user.home = /home/ubuntu
+	user.language = en
+	user.name = ubuntu
+	user.timezone = Etc/UTC
+2019-08-08 20:38:27,647 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Server:load-balancer] -D[pcid:954556939] -Xms64m -Xmx512m -XX:MetaspaceSize=96m -XX:MaxMetaspaceSize=256m -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Djboss.home.dir=/home/ubuntu/projects/keycloak -Djboss.modules.system.pkgs=org.jboss.byteman -Djboss.server.log.dir=/home/ubuntu/projects/keycloak/domain/servers/load-balancer/log -Djboss.server.temp.dir=/home/ubuntu/projects/keycloak/domain/servers/load-balancer/tmp -Djboss.server.data.dir=/home/ubuntu/projects/keycloak/domain/servers/load-balancer/data -Dlogging.configuration=file:/home/ubuntu/projects/keycloak/domain/servers/load-balancer/data/logging.properties 
+2019-08-08 20:38:27,825 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final
+2019-08-08 20:38:27,843 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final
+2019-08-08 20:38:27,911 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.8.Final
+2019-08-08 20:38:28,460 INFO  [org.wildfly.security] (ServerService Thread Pool -- 3) ELY00001: WildFly Elytron version 1.8.0.Final
+2019-08-08 20:38:32,464 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 7) WFLYIO001: Worker 'default' has auto-configured to 2 core threads with 16 task threads based on your 1 available processors
+2019-08-08 20:38:32,495 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.0.19.Final starting
+2019-08-08 20:38:32,679 INFO  [io.undertow] (MSC service thread 1-1) UT005039: Undertow starts mod_cluster proxy advertisements on /224.0.1.105:23364 with frequency 10000 ms
+2019-08-08 20:38:32,806 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2019-08-08 20:38:32,981 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener management listening on 127.0.0.1:8090
+2019-08-08 20:38:32,985 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2019-08-08 20:38:32,980 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2019-08-08 20:38:33,069 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2019-08-08 20:38:33,145 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /home/ubuntu/projects/keycloak/domain/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2019-08-08 20:38:33,361 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2019-08-08 20:38:33,373 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 6.0.1 (WildFly Core 8.0.0.Final) started in 7790ms - Started 73 of 88 services (39 services are lazy, passive or on-demand)
+2019-08-08 20:38:50,655 INFO  [io.undertow] (default task-2) UT005053: Registering node master:server-one, connection: ajp://127.0.0.1:8159/?#
+2019-08-08 20:38:50,666 INFO  [io.undertow] (default task-1) UT005045: Registering context /, for node master:server-one
+2019-08-08 20:38:50,669 INFO  [io.undertow] (default task-2) UT005045: Registering context /wildfly-services, for node master:server-one

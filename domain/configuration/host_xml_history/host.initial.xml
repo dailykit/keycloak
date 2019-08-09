@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
-<host xmlns="urn:jboss:domain:10.0">
+<host xmlns="urn:jboss:domain:10.0" name="master">
     <extensions>
         <extension module="org.jboss.as.jmx"/>
         <extension module="org.wildfly.extension.core-management"/>
@@ -9,10 +9,6 @@
     <management>
         <security-realms>
             <security-realm name="ManagementRealm">
-                <server-identities>
-                    <!-- Replace this with either a base64 password of your own, or use a vault with a vault expression -->
-                    <secret value="QXNkZmdAMTIzIw=="/>
-                </server-identities>
                 <authentication>
                     <local default-user="$local" skip-group-loading="true"/>
                     <properties path="mgmt-users.properties" relative-to="jboss.domain.config.dir"/>
@@ -57,16 +53,18 @@
         </audit-log>
         <management-interfaces>
             <native-interface security-realm="ManagementRealm">
-                <socket interface="management" port="${jboss.management.native.port:3456}"/>
+                <socket interface="management" port="${jboss.management.native.port:9999}"/>
             </native-interface>
+            <http-interface security-realm="ManagementRealm">
+                <http-upgrade enabled="true"/>
+                <socket interface="management" port="${jboss.management.http.port:9990}"/>
+            </http-interface>
         </management-interfaces>
     </management>
     <domain-controller>
-        <remote username="admin" security-realm="ManagementRealm">
-            <discovery-options>
-                <static-discovery name="primary" protocol="${jboss.domain.master.protocol:remote}" host="${jboss.domain.master.address:127.0.0.1}" port="${jboss.domain.master.port:9999}"/>
-            </discovery-options>
-        </remote>
+        <local/>
+        <!-- Alternative remote domain controller configuration with a host and port -->
+        <!-- <remote protocol="remote" host="${jboss.domain.master.address}" port="${jboss.domain.master.port:9999}" security-realm="ManagementRealm"/> -->
     </domain-controller>
     <interfaces>
         <interface name="management">
@@ -87,12 +85,23 @@
         </jvm>
     </jvms>
     <servers>
-        <server name="server-two" group="auth-server-group" auto-start="true">
+        <!-- load-balancer should be removed in production systems and replaced with a better softare or hardare based one -->
+        <server name="load-balancer" group="load-balancer-group"/>
+        <server name="server-one" group="auth-server-group" auto-start="true">
+            <!--
+              ~  Remote JPDA debugging for a specific server
+              ~             <jvm name="default">
+              ~               <jvm-options>
+              ~                 <option value="-agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=n"/>
+              ~               </jvm-options>
+              ~            </jvm>
+              ~            
+              -->
             <!--
               ~  server-two avoids port conflicts by incrementing the ports in
               ~                  the default socket-group declared in the server-group 
               -->
-            <socket-bindings port-offset="250"/>
+            <socket-bindings port-offset="150"/>
         </server>
     </servers>
     <profile>
