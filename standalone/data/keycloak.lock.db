@@ -1,6 +1,0 @@
-#FileLock
-#Mon Aug 12 05:09:34 UTC 2019
-hostName=ip-172-31-46-178.us-east-2.compute.internal
-id=16c843b4bb0ad79b97bfb2d965912a33628760f3d3f
-method=file
-server=172.31.46.178\:44757

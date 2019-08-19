@@ -1,0 +1,4 @@
+2019-08-17 15:20:11,961 WARN  [org.keycloak.events] (default task-232) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=188.43.136.32, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2019-08-17 15:26:42,392 WARN  [org.keycloak.events] (default task-267) type=LOGIN_ERROR, realmId=master, clientId=null, userId=null, ipAddress=188.43.136.32, error=expired_code, restart_after_timeout=true
+2019-08-17 15:30:38,241 WARN  [org.keycloak.events] (default task-266) type=LOGIN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=188.43.136.32, error=invalid_redirect_uri, redirect_uri=https://18.220.37.133:8443/auth/admin/master/console/#/realms/dailykit/identity-provider-settings/provider/github/github
+2019-08-17 15:38:42,581 WARN  [org.keycloak.connections.httpclient.DefaultHttpClientFactory] (default task-286) Truststore is disabled
