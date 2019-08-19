@@ -1,0 +1,10 @@
+2019-08-16 11:47:40,983 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-174) Code '87811ff4-c1b2-466e-aa0c-bca4690895d9' already used for userSession '27c079c8-0125-4fab-9fb0-299dd8e943eb' and client '6159f01c-9b86-433e-9265-b22b10463cd3'.
+2019-08-16 11:47:40,986 WARN  [org.keycloak.events] (default task-174) type=CODE_TO_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=188.43.136.32, error=invalid_code, grant_type=authorization_code, code_id=27c079c8-0125-4fab-9fb0-299dd8e943eb, client_auth_method=client-secret
+2019-08-16 11:53:39,740 ERROR [org.keycloak.broker.oidc.AbstractOAuth2IdentityProvider] (default task-174) redirect_uri_mismatch for broker login github
+2019-08-16 11:53:39,742 WARN  [org.keycloak.events] (default task-174) type=IDENTITY_PROVIDER_LOGIN_ERROR, realmId=dailykit, clientId=null, userId=null, ipAddress=188.43.136.32, error=invalid_code
+2019-08-16 11:56:55,221 ERROR [org.keycloak.broker.oidc.AbstractOAuth2IdentityProvider] (default task-174) redirect_uri_mismatch for broker login github
+2019-08-16 11:56:55,221 WARN  [org.keycloak.events] (default task-174) type=IDENTITY_PROVIDER_LOGIN_ERROR, realmId=dailykit, clientId=null, userId=null, ipAddress=188.43.136.32, error=invalid_code
+2019-08-16 12:00:40,567 ERROR [org.keycloak.broker.oidc.AbstractOAuth2IdentityProvider] (default task-174) redirect_uri_mismatch for broker login github
+2019-08-16 12:00:40,570 WARN  [org.keycloak.events] (default task-174) type=IDENTITY_PROVIDER_LOGIN_ERROR, realmId=dailykit, clientId=null, userId=null, ipAddress=188.43.136.32, error=invalid_code
+2019-08-16 12:22:36,341 ERROR [org.keycloak.broker.oidc.AbstractOAuth2IdentityProvider] (default task-199) redirect_uri_mismatch for broker login github
+2019-08-16 12:22:36,343 WARN  [org.keycloak.events] (default task-199) type=IDENTITY_PROVIDER_LOGIN_ERROR, realmId=dailykit, clientId=null, userId=null, ipAddress=188.43.136.32, error=invalid_code
